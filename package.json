@@ -1,7 +1,7 @@
 {
   "name": "jstransformer-es6-template-strings",
   "version": "0.0.1",
-  "description": "JSTransformer support for ES6 Template Strings.",
+  "description": "JSTransformer support for es6-template-strings.",
   "keywords": [
     "jstransformer"
   ],
