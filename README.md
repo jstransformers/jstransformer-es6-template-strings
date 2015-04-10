@@ -14,13 +14,9 @@
 
 ```js
 var transform = require('jstransformer')(require('jstransformer-es6-template-strings'));
+var template = 'Hello, ${name}!';
 
-var template = 'Hello, $(name)!';
-var locals = {
-  name: 'World'
-};
-
-transform.render(template, {}, locals).body
+transform.render(template, { name: 'World!' } ).body;
 //=> 'Hello, World!'
 ```
 
