@@ -7,27 +7,27 @@ exports.inputFormats = ['es6-templates', 'es6-template'];
 exports.outputFormat = 'html';
 
 exports.compile = function (str, options) {
-	// Compile the template string using `es6-templates`.
+  // Compile the template string using `es6-templates`.
   var compiled = engine.compile('`' + str + '`', options);
 
   // Build the render function, which takes the locals.
   return function(locals) {
     locals = locals || {};
 
-  	// Retrieve all of the local keys as an arguments array for a new function.
-  	var args = Object.keys(locals);
+    // Retrieve all of the local keys as an arguments array for a new function.
+    var args = Object.keys(locals);
 
-  	// Append the compiled code to the template string function argument array.
-  	args.push('return ' + compiled.code);
+    // Append the compiled code to the template string function argument array.
+    args.push('return ' + compiled.code);
 
-  	// Build an array of all the values for the function call.
-  	var values = [];
-  	for (var key in locals) {
-	    values.push(locals[key]);
-		}
+    // Build an array of all the values for the function call.
+    var values = [];
+    for (var key in locals) {
+      values.push(locals[key]);
+    }
 
-		// Construct the new template string function, call it with the locals.
-		return Function.construct(args).apply(locals, values);
+    // Construct the new template string function, call it with the locals.
+    return Function.construct(args).apply(locals, values);
   };
 };
 

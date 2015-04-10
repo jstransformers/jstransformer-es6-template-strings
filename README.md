@@ -17,7 +17,7 @@ var transform = require('jstransformer')(require('jstransformer-es6-templates'))
 
 var template = 'Hello, $(name)!';
 var locals = {
-  name: "World"
+  name: 'World'
 };
 
 transform.render(template, {}, locals).body
