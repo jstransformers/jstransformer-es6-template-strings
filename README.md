@@ -1,6 +1,6 @@
 # jstransformer-es6-templates
 
-JSTransformer support for [es6-templates](https://github.com/esnext/es6-templates).
+[JSTransformer](http://github.com/jstransformers/jstransformer) support for [es6-templates](https://github.com/esnext/es6-templates).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-es6-templates/master.svg)](https://travis-ci.org/jstransformers/jstransformer-es6-templates)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-es6-templates/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-es6-templates?branch=master)
