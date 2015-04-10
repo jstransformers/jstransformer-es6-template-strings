@@ -1,7 +1,7 @@
 {
-  "name": "jstransformer-es6-templates",
+  "name": "jstransformer-es6-template-strings",
   "version": "0.0.1",
-  "description": "JSTransformer support for Template Strings.",
+  "description": "JSTransformer support for ES6 Template Strings.",
   "keywords": [
     "jstransformer"
   ],
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-templatestring.git"
+    "url": "https://github.com/jstransformers/jstransformer-es6-template-strings.git"
   },
   "author": "Rob Loach <robloach@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "es6-templates": "^0.2.2"
+    "es6-template-strings": "^0.1.0"
   }
 }

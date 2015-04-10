@@ -1,19 +1,19 @@
 # jstransformer-es6-templates
 
-[JSTransformer](http://github.com/jstransformers/jstransformer) support for [es6-templates](https://github.com/esnext/es6-templates).
+[JSTransformer](http://github.com/jstransformers/jstransformer) support for [es6-template-strings](http://github.com/medikoo/es6-template-strings).
 
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-es6-templates/master.svg)](https://travis-ci.org/jstransformers/jstransformer-es6-templates)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-es6-templates/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-es6-templates?branch=master)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-es6-templates.svg)](https://www.npmjs.org/package/jstransformer-es6-templates)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-es6-template-strings/master.svg)](https://travis-ci.org/jstransformers/jstransformer-es6-template-strings)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-es6-template-strings/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-es6-template-strings?branch=master)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-es6-template-strings.svg)](https://www.npmjs.org/package/jstransformer-es6-template-strings)
 
 ## Installation
 
-    npm install jstransformer-es6-templates
+    npm install jstransformer-es6-template-strings
 
 ## API
 
 ```js
-var transform = require('jstransformer')(require('jstransformer-es6-templates'));
+var transform = require('jstransformer')(require('jstransformer-es6-template-strings'));
 
 var template = 'Hello, $(name)!';
 var locals = {

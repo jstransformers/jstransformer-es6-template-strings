@@ -18,7 +18,7 @@ function assertEqual(output, expected) {
   assert.equal(output, expected);
 }
 
-test('a', function () {
+test('es6-template-strings', function () {
   output = transform.compile(input)(locals);
   assertEqual(output, expected);
 });
