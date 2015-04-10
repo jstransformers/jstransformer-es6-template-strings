@@ -1,4 +1,4 @@
-# jstransformer-es6-templates
+# jstransformer-es6-template-strings
 
 [JSTransformer](http://github.com/jstransformers/jstransformer) support for [es6-template-strings](http://github.com/medikoo/es6-template-strings).
 
