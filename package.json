@@ -1,10 +1,10 @@
 {
-  "name": "jstransformer-es6-template-strings",
-  "version": "2.0.0",
-  "description": "es6-template-strings support for JSTransformers.",
   "dependencies": {
     "es6-template-strings": "^2.0.0"
   },
+  "name": "jstransformer-es6-template-strings",
+  "version": "2.0.0",
+  "description": "es6-template-strings support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -15,8 +15,8 @@
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
   },
   "repository": {
     "type": "git",
