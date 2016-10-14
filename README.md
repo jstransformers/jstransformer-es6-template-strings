@@ -3,7 +3,7 @@
 [es6-template-strings](https://github.com/medikoo/es6-template-strings) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-es6-template-strings/master.svg)](https://travis-ci.org/jstransformers/jstransformer-es6-template-strings)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-es6-template-strings/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-es6-template-strings?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-es6-template-strings/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-es6-template-strings)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-es6-template-strings/master.svg)](http://david-dm.org/jstransformers/jstransformer-es6-template-strings)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-es6-template-strings.svg)](https://www.npmjs.org/package/jstransformer-es6-template-strings)
 
