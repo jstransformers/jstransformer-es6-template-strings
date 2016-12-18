@@ -7,10 +7,10 @@ exports.name = 'es6-template-strings'
 exports.inputFormats = ['es6-template-strings', 'es6-template-string']
 exports.outputFormat = 'html'
 
-exports.compile = function (str, options) {
+exports.compile = function (str) {
   var compiled = compile(str)
 
-  return function(locals) {
+  return function (locals) {
     return resolveToString(compiled, locals)
   }
 }
