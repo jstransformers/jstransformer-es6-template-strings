@@ -15,10 +15,10 @@
 ## API
 
 ```js
-var transform = require('jstransformer')(require('jstransformer-es6-template-strings'));
-var template = 'Hello, ${name}!';
+var transform = require('jstransformer')(require('jstransformer-es6-template-strings'))
+var template = 'Hello, ${name}!'
 
-transform.render(template, { name: 'World!' } ).body;
+transform.render(template, { name: 'World!' } ).body
 //=> 'Hello, World!'
 ```
 
