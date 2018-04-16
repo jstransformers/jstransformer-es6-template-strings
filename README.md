@@ -1,7 +1,5 @@
 # jstransformer-es6-template-strings
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-es6-template-strings.svg)](https://greenkeeper.io/)
-
 [es6-template-strings](https://github.com/medikoo/es6-template-strings) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-es6-template-strings/master.svg)](https://travis-ci.org/jstransformers/jstransformer-es6-template-strings)
